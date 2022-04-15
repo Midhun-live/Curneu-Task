@@ -1,0 +1,13 @@
+.header2{
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+}
+.header2container{
+    width: 60%;
+}
+.head2content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
