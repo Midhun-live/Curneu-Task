@@ -1,0 +1,21 @@
+.photo-grid{
+    display: grid;
+    grid-gap: 1em; 
+    grid-template-areas: 
+        "photoone phototwo"
+        "photoone phonethree";
+    grid-template-columns: 50% 50%;   
+    padding: 40px; 
+}
+.photo-grid > div{
+    background-color: rgb(252, 248, 248);
+    border: 2px solid #EEE;
+}
+.photo-grid > div:first-child{
+    grid-area: photoone;
+    height: 100vh;
+}
+img{
+    display: block;
+    text-align: center;
+}
