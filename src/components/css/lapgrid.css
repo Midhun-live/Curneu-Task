@@ -1,5 +1,7 @@
 .photo-grid{
     display: grid;
+    justify-content: center;
+    /* align-items: center; */
     grid-gap: 1em; 
     grid-template-areas: 
         "photoone phototwo"
@@ -10,6 +12,9 @@
 .photo-grid > div{
     background-color: rgb(252, 248, 248);
     border: 2px solid #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .photo-grid > div:first-child{
     grid-area: photoone;

@@ -1,21 +1,43 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     height: 6vh;
     background-color: #1D1D1F;
     color: #F5F5F7;
     font-size: 12px;
 }
-.head-container{
+
+.head-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 60%;
 }
-.content{
+
+.content {
     display: flex;
     gap: 38px;
     align-items: center;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .content .responsive p {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
